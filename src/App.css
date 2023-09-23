@@ -1,0 +1,40 @@
+.Wrapper{
+    width:100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    background-color: #244151;
+    gap: 20px;
+}
+.heading{
+    color: #0398d4;
+    font-size: medium;
+    font-size: 40px;
+}
+.buttons{
+    background-color: white;
+    display: flex;
+    align-items:center;
+    gap: 12px;
+    padding: 0px 3px;
+    border-radius: 0.125rem;
+    color: #344151;
+    font-size: 25px;
+}
+.button{
+    border:none;
+    background-color: white;
+    cursor:pointer;
+    font-size:30px;
+}
+.resetButton{
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor:pointer;
+    background-color: #0398d4;
+    color:white;
+    border-radius: 0.125rem;
+    border:none;
+}
